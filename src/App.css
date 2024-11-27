@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #1b2436;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 20px;
+  font-family: 'Merriweather', serif; 
+}
+
+h1 {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.designer-credit {
+  margin-top: 10px;  
+  font-size: 1.2rem;
+  color: #fff;  
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 400px;
+  background-color: #191917;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.display {
+  background-color: #64818e;
+  color: white;
+  font-size: 2em;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 10px;  
+}
+
+.button {
+  background-color: #390175;
+  border: none;
+  color: rgb(18, 18, 18);
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #000f53;
+}
+
+.button-row {
+  display: flex;
+  gap: 10px;  
+}
+
+.button.zero {
+  grid-column: span 2; 
+}
