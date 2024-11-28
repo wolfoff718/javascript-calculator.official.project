@@ -71,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Clarification about the calculator 
 -En el archivo App.css, al final, usted podra observar el estilo personalizado que tiene el botón "0" de la calculadora. Intenté varias veces hacer que el botón se extendiera hasta el espacio en donde está el símbolo "=" de la calculadora, pero no resultó como esperaba. Me disculpo por la visualización de esa parte de la calculadora.
+
+### Project Link
+-Aqui usted puede acceder al proyecto en vivo de la calculadora JavaScript: (https://curly-snakes.surge.sh)
